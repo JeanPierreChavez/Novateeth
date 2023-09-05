@@ -1,0 +1,139 @@
+body {
+    background-image: url("/Imagenes/fondologin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    /* Puedes establecer otros estilos específicos para el cuerpo si es necesario */
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Esto permite que las tarjetas se envuelvan a la siguiente línea si no caben en una sola fila */
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+}
+      .Odonto{
+        width: 350px;
+        text-align: right;
+      } 
+      .carousel-inner{
+        height: 580px;
+        text-align: center;
+  
+      }
+      .carousel-control-next{
+        height: 15cm;
+      }
+      .carousel-control-prev{
+        height: 15cm;
+      }
+      .header-txt{
+        margin-left: 300px;
+      }
+      .txt{
+        display:flex;
+        justify-content: left;
+        
+      }
+      .logo_banner{
+        height: 50px;
+      }
+      
+    
+      .card{
+        position: relative;
+        width: 300px;
+        height:350px;
+      }
+      .card .face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden ;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: .5s;
+      }
+      .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+      }
+      .float:hover {
+        text-decoration: none;
+        color: #25d366;
+        background-color:#fff;
+      }
+      
+      .my-float{
+        margin-top:16px;
+      }
+   
+    
+    /* Estilos de las tarjetas */
+    .flip-card {
+        width: 200px;
+        height: 300px;
+        perspective: 1000px;
+        margin: 10px;
+    }
+    
+    .flip-card-inner {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s;
+        transform-style: preserve-3d;
+    }
+    
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+    
+    .flip-card-front,
+    .flip-card-back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+        background-color: #2196F3;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flip-card-back {
+        background-color: #f3dbc3;
+        color: black;
+        transform: rotateY(180deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ortodoncia{
+        width: 200px;
+        height: 300px;
+    }
+    .diseño{
+        width: 200px;
+        height: 300px;
+        
+    }
+    .protesis{
+        width: 200px;
+        height: 300px;
+    
+    }
+   

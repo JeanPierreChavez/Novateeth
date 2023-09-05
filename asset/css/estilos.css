@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fondo{
+    min-height: 100vh;
+}
+.fondo_menu{
+    background-color:#22142b;
+
+}
+.boton{
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: .2s;
+}
+.boton:hover{
+    border: 1px solid #29bcaf;
+    color: #29bcaf;
+}
+.fondo-login {
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.938);
+    min-height: 100vh;
+    padding-top: 50px;
+}
+.login{
+    color: white;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgb(51, 47, 47);
+}
+.icon,.titulo{
+    text-align: center;
+    color: white;
+}
+.titulo{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.icon,.diente-icon{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #29bcaf;
+}
+
+

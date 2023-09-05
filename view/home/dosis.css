@@ -1,0 +1,13 @@
+body{
+    background-image: url("/Imagenes/fondologin.jpg");
+}
+.texto{
+    background-color: blue;
+}
+.header-txt{
+    margin-left: 300px;
+}
+.container{
+    width: 100px;
+    text-align: center;
+}
